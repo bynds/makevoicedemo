@@ -1,0 +1,23 @@
+{
+    "insteon" : {
+                        "IP" : "192.168.X.X:25105",
+                        "username" : "<your-username>",
+                        "password" : "<your-password>" 
+                 },
+    "hue" :     {
+                        "IP" : "192.168.X.X:80",
+                        "username" : "<your-username>"
+                 },
+    "devices" : {
+                    "hue" : {
+                            "kitchenlight" : {
+                                                "deviceID" : "3"    
+                                         }
+                             },
+                    "insteon" : {         
+                            "bedroomlight" : {
+                                                "deviceID" : "21FA84"    
+                                         }
+                                 }
+                 }
+}

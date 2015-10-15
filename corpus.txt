@@ -1,0 +1,8 @@
+turn on the kitchen light
+turn off the kitchen light
+turn on the bedroom light
+turn off the bedroom light
+turn on the roomba
+turn off the roomba
+roomba clean 
+roomba go home

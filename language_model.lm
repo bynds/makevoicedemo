@@ -1,0 +1,73 @@
+Language model created by QuickLM on Fri Feb 13 02:00:22 EST 2015
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 7 sentences and 13 words
+
+\data\
+ngram 1=13
+ngram 2=18
+ngram 3=19
+
+\1-grams:
+-1.0894 </s> -0.3010
+-1.0894 <s> -0.2586
+-1.6335 BEDROOM -0.2803
+-1.9345 CLEAN -0.2642
+-1.9345 GO -0.2960
+-1.9345 HOME -0.2642
+-1.6335 KITCHEN -0.2803
+-1.3324 LIGHT -0.2642
+-1.6335 OFF -0.2750
+-1.4574 ON -0.2750
+-1.4574 ROOMBA -0.2530
+-1.2355 THE -0.2642
+-1.2355 TURN -0.2750
+
+\2-grams:
+-0.8451 <s> ROOMBA -0.1249
+-0.4472 <s> TURN 0.0000
+-0.3010 BEDROOM LIGHT 0.0000
+-0.3010 CLEAN </s> -0.3010
+-0.3010 GO HOME 0.0000
+-0.3010 HOME </s> -0.3010
+-0.3010 KITCHEN LIGHT 0.0000
+-0.3010 LIGHT </s> -0.3010
+-0.3010 OFF THE -0.0792
+-0.3010 ON THE 0.0000
+-0.7782 ROOMBA </s> -0.3010
+-0.7782 ROOMBA CLEAN 0.0000
+-0.7782 ROOMBA GO 0.0000
+-0.6990 THE BEDROOM 0.0000
+-0.6990 THE KITCHEN 0.0000
+-1.0000 THE ROOMBA -0.2218
+-0.6990 TURN OFF 0.0000
+-0.5229 TURN ON 0.0000
+
+\3-grams:
+-0.6021 <s> ROOMBA CLEAN
+-0.6021 <s> ROOMBA GO
+-0.6990 <s> TURN OFF
+-0.5229 <s> TURN ON
+-0.3010 BEDROOM LIGHT </s>
+-0.3010 GO HOME </s>
+-0.3010 KITCHEN LIGHT </s>
+-0.6021 OFF THE BEDROOM
+-0.6021 OFF THE KITCHEN
+-0.7782 ON THE BEDROOM
+-0.7782 ON THE KITCHEN
+-0.7782 ON THE ROOMBA
+-0.3010 ROOMBA CLEAN </s>
+-0.3010 ROOMBA GO HOME
+-0.3010 THE BEDROOM LIGHT
+-0.3010 THE KITCHEN LIGHT
+-0.3010 THE ROOMBA </s>
+-0.3010 TURN OFF THE
+-0.3010 TURN ON THE
+
+\end\
