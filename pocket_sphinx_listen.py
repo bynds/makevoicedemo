@@ -1,7 +1,7 @@
 # This import will give us our wrapper for the Pocketsphinx library which we can use to get the voice commands from the 
 # user.
 from pocket_sphinx_listener import PocketSphinxListener
-
+import sys
 
 def runMain():
     # Now we set up the voice recognition using Pocketsphinx from CMU Sphinx.
