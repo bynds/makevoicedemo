@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
 
 # C extensions
 *.so
@@ -55,3 +56,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# WingIDE
+*.wpr
+*.wpu
